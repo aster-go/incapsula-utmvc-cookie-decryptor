@@ -53,7 +53,7 @@ The protection flow works as follows:
 
 The decryption process involves:
 
-1. **Key Extraction**: Using the `file-analyzer` module (based on my old[Incapsula-utmvc-Deobfuscator](https://github.com/glizzykingdreko/Incapsula-utmvc-Deobfuscator)) to deobfuscate the script and extract the encryption key
+1. **Key Extraction**: Using the `file-analyzer` module (based on my old[Incapsula-utmvc-Deobfuscator](https://github.com/aster-go/Incapsula-utmvc-Deobfuscator)) to deobfuscate the script and extract the encryption key
 2. **RC4 Decryption**: Reversing the RC4 encryption using the extracted key
 3. **Data Parsing**: Analyzing the decrypted data to extract browser fingerprinting information
 
@@ -61,8 +61,8 @@ You can find the complete decryption process in the [`decryptor.js`](decryptor.j
 
 ## Related Projects
 
-- [Incapsula-utmvc-Deobfuscator](https://github.com/glizzykingdreko/Incapsula-utmvc-Deobfuscator) - Tool to deobfuscate Incapsula's dynamic __utmvc scripts
-- [Medium Article](https://medium.com/@glizzykingdreko/breaking-down-the-incapsulas-utmvc-cookie-ea5668b765c5?sk=383ff18fdba4c93c8a53ef5e6bd28130) - Detailed explanation of the project development
+- [Incapsula-utmvc-Deobfuscator](https://github.com/aster-go/Incapsula-utmvc-Deobfuscator) - Tool to deobfuscate Incapsula's dynamic __utmvc scripts
+- [Medium Article](https://medium.com/@aster-go/breaking-down-the-incapsulas-utmvc-cookie-ea5668b765c5?sk=383ff18fdba4c93c8a53ef5e6bd28130) - Detailed explanation of the project development
 
 ## Usage
 
@@ -78,7 +78,7 @@ You can find the complete decryption process in the [`decryptor.js`](decryptor.j
 Clone the repository
 
 ```bash
-git clone https://github.com/glizzykingdreko/incapsula-___utmvc-cookie-decryptor
+git clone https://github.com/aster-go/incapsula-___utmvc-cookie-decryptor
 ```
 
 Install dependencies
@@ -101,9 +101,3 @@ Contributions are welcome! Feel free to:
 - Report bugs
 - Suggest features
 - Submit pull requests
-
-## Author
-
-- [@glizzykingdreko](https://github.com/glizzykingdreko)
-- [Medium](https://medium.com/@glizzykingdreko)
-- [Twitter](https://twitter.com/glizzykingdreko)
